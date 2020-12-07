@@ -1,8 +1,11 @@
 {
     "manifest_version": 2,
-    "name": "Chrome Photo",
-    "version": "0.1",
-    "content_scripts"[
+    "name": "Photo Extension",
+    "version": "0.001",
+    "web_accessible_resources": [
+        "*.jpeg"
+    ],
+    "content_scripts": [
         {
             "matches": [
                 "<all_urls>"
